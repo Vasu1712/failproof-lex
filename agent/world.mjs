@@ -4,7 +4,7 @@
 
 import { dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { withFinal } from "../../env/final.mjs";
+import { withFinal } from "../env/final.mjs";
 
 export const NOW = "2026-09-27T10:00:00+05:30";
 const AGENT_DIR = dirname(fileURLToPath(import.meta.url));

@@ -1,6 +1,6 @@
 // Lex — Northwind Labs legal-operations tools. Pure: no I/O, no clock, no
 // randomness, so a transcript's calls can be replayed to the same end state.
-import { ToolError, need, str, num, enm, arr, obj } from "../../env/mcp.mjs";
+import { ToolError, need, str, num, enm, arr, obj } from "../env/mcp.mjs";
 
 const TODAY = (w) => w.now.slice(0, 10);
 
